@@ -13,7 +13,7 @@ TEST_SRC = src/student_management_system.c\
 test/test_student_management.c\
 unity/unity.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+TEST_OUTPUT = Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC	= -Iinc\
@@ -58,7 +58,7 @@ coverageCheck:$(BUILD)
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(PROJECT_OUTPUT) $(DOCUMENTATION_OUTPUT)
+	rm -rf $(PROJECT_OUTPUT) $(TEST_OUTPUT) $(DOCUMENTATION_OUTPUT)
 
 # Create new build folder if not present
 $(BUILD):
