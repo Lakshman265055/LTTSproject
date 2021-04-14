@@ -23,7 +23,7 @@ struct student{
     struct student *next;
 }*head,*temp,*curr;
 
-void Add(void);
+error_t Add(void);
 
 void Search(void);
 
