@@ -1,7 +1,7 @@
 #include "student.h"
 
 
-void Add(void)
+error_t Add(void)
 {
     int i;
     struct student *n_node;
@@ -36,6 +36,10 @@ void Add(void)
     }
     fl=fopen("data.txt","ab+");
     fwrite(&curr->stud, sizeof(curr->stud), 1, fl);
+    if (f1 == NULL)
+		return FAILURE;
+	else
+		return SUCCESS;
     fclose(fl);
 }
 void Search(void){
