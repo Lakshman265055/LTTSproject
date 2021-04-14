@@ -5,6 +5,7 @@
 #include<stdlib.h>
 #include<string.h>
 
+typedef enum{SUCCESS=1,FAILURE}error_t;
 
 FILE *fl,*tmp;
     struct data{
@@ -15,6 +16,7 @@ FILE *fl,*tmp;
     char Batch[20];
     char Phone_no[20];
 }stud1;
+
 struct student{
 
     struct data stud;
