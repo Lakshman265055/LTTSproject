@@ -4,6 +4,7 @@
 
 void main()
 {
+    error_t err;
     int i,j,choice;
     printf("*************************Student Managemnt System********************************\n\n\n");
     printf("**********************************Menu**********************************\n\n");
@@ -16,7 +17,7 @@ void main()
         scanf("%d",&choice);
         switch(choice){
             case 1:
-                error_t err = Add();
+                err = Add();
                 break;
             case 2:
                 Search();
