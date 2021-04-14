@@ -1,3 +1,5 @@
+#include "student.h"
+
 
 void Add(void)
 {
