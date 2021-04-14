@@ -35,11 +35,13 @@ error_t Add(void)
         curr=n_node;
     }
     fl=fopen("data.txt","ab+");
-    fwrite(&curr->stud, sizeof(curr->stud), 1, fl);
-    if (f1 == NULL)
+	if (f1 == NULL)
 		return FAILURE;
 	else
 		return SUCCESS;
+	
+    fwrite(&curr->stud, sizeof(curr->stud), 1, fl);
+    
     fclose(fl);
 }
 void Search(void){
