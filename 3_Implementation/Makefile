@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = student
 
 # Output directory
 BUILD = build
@@ -9,8 +9,8 @@ SRC = main.c\
 src/student_management_system.c
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c\
+TEST_SRC = src/student_management_system.c\
+test/test_student_management.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
@@ -22,10 +22,10 @@ INC	= -Iinc\
 #Library Inlcudes
 #if working with CUnit 
 #INCLUDE_LIBS = -lcunit
-INCLUDE_LIBS =
+#INCLUDE_LIBS =
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT = $(PROJECT_NAME).out
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -58,7 +58,7 @@ coverageCheck:$(BUILD)
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	rm -rf $(PROJECT_OUTPUT) $(DOCUMENTATION_OUTPUT)
 
 # Create new build folder if not present
 $(BUILD):
