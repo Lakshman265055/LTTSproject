@@ -16,7 +16,7 @@ void main()
         scanf("%d",&choice);
         switch(choice){
             case 1:
-                error_t err Add();
+                error_t err = Add();
                 break;
             case 2:
                 Search();
