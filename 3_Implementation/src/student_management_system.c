@@ -35,7 +35,7 @@ error_t Add(void)
         curr=n_node;
     }
     fl=fopen("data.txt","ab+");
-	if (f1 == NULL)
+	if (fl == NULL)
 		return FAILURE;
 	else
 		return SUCCESS;
