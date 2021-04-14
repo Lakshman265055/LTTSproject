@@ -27,7 +27,7 @@ int main()
 }
 
 /* Write all the test functions */ 
-void test_add(void) {
+void test_stud(void) {
   TEST_ASSERT_EQUAL(SUCCESS, Add());
 
 }
