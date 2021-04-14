@@ -28,6 +28,6 @@ int main()
 
 /* Write all the test functions */ 
 void test_add(void) {
-  TEST_ASSERT_EQUAL(SUCCESS, add());
+  TEST_ASSERT_EQUAL(SUCCESS, Add());
 
 }
