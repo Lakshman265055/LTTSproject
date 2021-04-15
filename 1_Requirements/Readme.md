@@ -27,7 +27,17 @@ There are 100s and 1000s of students studying in educational institutes and comp
 -- Content 
 ## SWOT ANALYSIS
 ## Strength:
-*
+* Easy maintenance and reuse of recors
+* save lots of paper
+## Weaknesses
+* software training will be required.
+* there should be some backup data
+## Opportunities
+* A big step towards digitalization
+* Skill advancement, better facility and improve in work life.
+## Thrats
+* HArdware failure can leads to data loss
+* prone ti cyber threats.
 
 ## Who:
 
