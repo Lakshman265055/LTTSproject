@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
- --- TBD 
+Student record management system is designed to help manage the daily school and college activities of recording and maintaining by automating it. It is in managing the institute efficiently and accurately.
 
 ## Research
 ![Description](Link to Pic)
@@ -21,7 +21,7 @@
 
 ## What:
 
-**TBD**
+for ever
 
 ## When:
 
