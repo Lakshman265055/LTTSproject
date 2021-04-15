@@ -1,6 +1,20 @@
+/**
+ * @file student_management_system.c
+ * @author Lakshman 265055 
+ * @brief A program for managing student records
+ * @version 0.1
+ * @date 2021-04-15
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "student.h"
 
-
+/**
+ * @brief A function to enter student records
+ * 
+ * @return error_t 
+ */
 error_t Add(void)
 {
     int i;
@@ -44,6 +58,10 @@ error_t Add(void)
     
     fclose(fl);
 }
+/**
+ * @brief A function to search a particular entry of student from a file
+ * 
+ */
 void Search(void){
     int i;
     char s_Id[20];
@@ -83,6 +101,10 @@ void Search(void){
     printf("%d",i);
     return;
 }
+/**
+ * @brief A function to delete records from a file
+ * 
+ */
 void Delete(void)
 {
     int i;
@@ -115,6 +137,11 @@ void Delete(void)
     printf("record deleted\n");
     return;
 }
+
+/**
+ * @brief A function to modify an existing student record
+ * 
+ */
 void Modify(void){
     char s_Id[19];
     int isFound = 0;
