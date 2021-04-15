@@ -25,8 +25,6 @@ There are 100s and 1000s of students studying in educational institutes and comp
 ## Cost and Features
 ![Description](Link to Pic)
 -- Content 
-## Defining Our System
-    -- TBD
 ## SWOT ANALYSIS
 ## Strength:
 *
