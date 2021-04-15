@@ -66,10 +66,9 @@ HR06	Data should not be lost in case of faliure	Scenario	FUTURE
 HR07	Data should not be lost in case of faliure	Scenario	TBD-S1
 
 ##  Low level Requirements:
-LR01	New record shall be added by providing all the asked information	HR01	TBD-S1
-LR02	Student record shall be deleted completely	HR02	TBD-S1
-LR03	All the information of the student given should be printed	HR03	TBD-S1
-LR04	Should be able to find the eligibility of the student without mistakes	HR04	TBD-S1
-LR05	Should be able to give user different choices like add,delete,print etc	HR05	TBD-S1
-LR06	If opening the file fails, then the system should not end the program execution	HR 01-05	TBD-S1
-LR07	When user Log off the system, message shall be prompted asking the user to save new records to file before exiting or not	HR07	TBD-S1
+	* New record shall be added by providing all the asked information
+	* Student record shall be deleted completely	
+	* All the information of the student given should be printed	
+	* Should be able to find the eligibility of the student without mistakes	
+	* Should be able to give user different choices like add,delete,print etc	
+    * When user Log off the system, message shall be prompted asking the user to save new records to file before exiting or not	
