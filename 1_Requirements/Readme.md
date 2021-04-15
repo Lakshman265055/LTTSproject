@@ -28,9 +28,8 @@ There are 100s and 1000s of students studying in educational institutes and comp
 ## Defining Our System
     -- TBD
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
-
-# 4W&#39;s and 1&#39;H
+## Strength:
+*
 
 ## Who:
 
@@ -57,18 +56,17 @@ There are 100s and 1000s of students studying in educational institutes and comp
 ## High Level Requirements:
 --- TBD in Tabular Format 
 -- ID | Description | Status (Implemented/Future)
-HR01	User shall be able to add new Student record	Techincal	TBD-S1
-HR02	User shall be able to delete a Student record	Technical	TBD-S1
-HR03	User shall be able to print a Student record	Technical	TBD-S1
-HR04	User shall be able to check whether a Student is eligible	Technical	TBD-S1
-HR05	User shall be able to make choices on what to do on a Student record	Technical	TBD-S1
-HR06	Data should not be lost in case of faliure	Scenario	FUTURE
-HR07	Data should not be lost in case of faliure	Scenario	TBD-S1
-
+* User shall be able to add new Student record	
+* User shall be able to delete a Student record	
+* User shall be able to print a Student record	
+* User shall be able to check whether a Student is eligible	Technical	
+* User shall be able to make choices on what to do on a Student record	Technical	
+* Data should not be lost in case of faliure	
+* Data should not be lost in case of faliure	
 ##  Low level Requirements:
-	* New record shall be added by providing all the asked information
-	* Student record shall be deleted completely	
-	* All the information of the student given should be printed	
-	* Should be able to find the eligibility of the student without mistakes	
-	* Should be able to give user different choices like add,delete,print etc	
-    * When user Log off the system, message shall be prompted asking the user to save new records to file before exiting or not	
+* New record shall be added by providing all the asked information
+* Student record shall be deleted completely	
+* All the information of the student given should be printed	
+* Should be able to find the eligibility of the student without mistakes	
+* Should be able to give user different choices like add,delete,print etc	
+* When user Log off the system, message shall be prompted asking the user to save new records to file before exiting or not	
