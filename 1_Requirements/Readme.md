@@ -23,9 +23,6 @@ There are 100s and 1000s of students studying in educational institutes and comp
 * Easy tracking of all students
 
 * Reduction of human labour and workload
-## Cost and Features
-![Description](Link to Pic)
--- Content 
 ## SWOT ANALYSIS
 ## Strength:
 * Easy maintenance and reuse of recors
