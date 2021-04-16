@@ -10,25 +10,25 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research
-`2_Design`         | Documents specifying design details
-`3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
+`1_Requirements`   |  requirements and research
+`2_Design`         |  specifying design details
+`3_Implementation` |  Implemented code
+`4_Test_plan`      |  Documents with test plans and procedures
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-265055 |G.Lakshman  | Feature A, B etc    | X No     | X No   |X No   |X No          
+PS No. |  Name     |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+-------|-----------|----------------|----------------|---------------|-------------|--------------
+265055 |G.Lakshman |F1,F2,F3,F4     | X No           | X No          |X No         |X No          
 
-## Challenges Faced and How Was It Overcome
-
-1. ABC
-2. BCD
-3. ...
-4. ...
-
-## Learning Resources
+## Features
+  Feature ID |           Feature                                        
+-------------|--------------------------------------------------------------------------------
+     F1      |   Data are saved in a file
+     F2      |   Usage of the concepts like structure, pointer, file handling, functions etc
+     F3      |   User can Add, Delete Records
+     F4      |   Admin can also generate report which will give data of all the students
+## Learning Reources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
