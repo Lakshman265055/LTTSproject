@@ -62,8 +62,6 @@ There are 100s and 1000s of students studying in educational institutes and comp
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
 * User shall be able to add new Student record	
 * User shall be able to delete a Student record	
 * User shall be able to print a Student record	
