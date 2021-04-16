@@ -1,4 +1,5 @@
 # Requirements
+![reqirements](https://github.com/Lakshman265055/LTTSproject/blob/main/1_Requirements/reqirements.png)
 ## Introduction
 * Student Record System are often viewed as paperwork produed for the education bureaucracy. However, a well designed automated Student Record System yields many benefits. The most important benefit is the ability to find or report or update information about any individual student within a few seconds. Secondly, the efficiency in processing and exchanging student records among institutes when required becomes very easy.
 
